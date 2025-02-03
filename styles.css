@@ -43,6 +43,7 @@ body {
 	border: none;
 	cursor: pointer;
 	transition: transform 0.2s;
+	border-radius: 50px;
 }
 
 .color-option:hover {
