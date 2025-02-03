@@ -38,12 +38,15 @@ body {
 }
 
 .color-option {
-	width: 80px;
-	height: 40px;
+	width: 80px; /* Make width and height equal */
+	height: 80px;
 	border: none;
 	cursor: pointer;
 	transition: transform 0.2s;
-	border-radius: 50%;
+	border-radius: 50%; /* Ensures a circular shape */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .color-option:hover {
